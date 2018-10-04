@@ -1,0 +1,135 @@
+body{
+    display: flex;
+}
+#list-msg{
+    margin-left: -2px;
+    border-bottom-color: rgb(247, 242, 242);
+    padding-left: 0px;
+    width: 390px;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    border-right: 1px solid rgb(200, 200, 200);
+    overflow-y: scroll;   
+}
+#container{
+    display: flex;
+    border-bottom: 1px solid rgb(218, 212, 212);
+    padding-left: 11px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.person-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    min-width: 50px;
+    margin-right: 1em;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    background-color: #dee6e8;
+}
+.name{
+    margin: 0;
+    font-weight: bold;
+}
+.message{
+    margin: 0;
+    color: #666666;
+    display: flex;
+}
+#person-detail{
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.image-card{
+    display: flex;
+    align-items: flex-start;
+}
+.message-info{
+    display: flex;
+    margin-top: 5px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  
+
+}
+span{
+    display: inline-block;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+
+}
+.last-seen{
+    font-size: 0.8em;
+    margin-left: 113px;
+    color: grey;
+}
+i{
+    margin-right: 1em;
+    color: #a59f9f;
+ 
+}
+.fa-check-double{
+    color: rgb(86, 213, 230);
+}
+#main-container:hover{
+    background-color: #ece8e8;
+    cursor: pointer;
+  
+}
+#card-center{
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.card{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+ 
+}
+.cardbody{
+    width: 400px;
+    height: 401px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.card-status{
+    font-family: 'Itim', cursive;
+}
+.cardbody > * {
+    padding: 5px;
+    margin: 0px;
+   
+}
+.card-text, .card-status{
+    font-size: 25px ;
+}
+h1{
+    font-weight: bold !important;
+}
+#images{
+    width: 186px;;
+    height:186px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #dee6e8;
+}
+
+
+#details {
+    display: none;
+}
+direction{
+    font-size: 40px;
+    
+}
